@@ -1,0 +1,197 @@
+
+body > header nav {
+	line-height: 3em;
+	padding: 2em 0;
+	position: absolute;
+	right: 75%;
+}
+
+body > header nav dl {
+	width: 3em;
+}
+
+body > header nav dt {
+	display: block;
+	font-size: 1.2em;
+	height: 2.5em;
+	margin: 0.8em 0;
+	text-decoration: none;
+	white-space: nowrap;
+	z-index: 10;
+}
+
+body > header nav dt a {
+	background-color: #444;
+	color: transparent;
+	cursor: pointer;
+	display: inline-block;
+	height: 100%;
+	overflow: hidden;
+	text-decoration: none;
+	text-transform: uppercase;
+	transition: height .2s ease-in-out, margin .2s ease-in-out, width .2s ease-in-out;
+	vertical-align: middle;
+	width: 100%;
+}
+
+body > header nav dt a .fa {
+	color: #eee;
+	display: inline-block;
+	text-align: center;
+	vertical-align: middle;
+	width: 2.5em;
+}
+
+body > header nav dt a:focus,
+body > header nav dt a:hover {
+	background-color: #eee;
+	margin-left: -0.5em;
+	outline: none;
+	width: 3.5em;
+}
+
+body > header nav dt a:focus .fa,
+body > header nav dt a:hover .fa {
+	color: #222;
+}
+
+body > header nav dt.active {
+	margin: 12.3em 0 0 2.5em;
+	transform: rotate(270deg);
+	transform-origin: left bottom 0;
+	width: 14em;
+}
+
+body > header nav dt.active a {
+	color: #eee;
+	width: 14em;
+}
+
+body > header nav dt.active a .fa {
+	transform: rotate(90deg);
+}
+
+body > header nav dt.active a:focus,
+body > header nav dt.active a:hover {
+	color: #222;
+	height: 3em;
+	margin-left: 0;
+	margin-top: -0.5em;
+}
+
+body > header [data-tab=work] a {
+	background-color: #e20;
+}
+
+body > header [data-tab=resume] a {
+	background-color: #08e;
+}
+
+body > header [data-tab=contact] a {
+	background-color: #8b0;
+}
+
+body > header [data-tab=about] a {
+	background-color: #ea1;
+}
+
+body > header nav dd {
+	cursor: default;
+	display: none;
+	background-color: rgba(34, 34, 34, 0.95);
+	padding: 0 1em;
+	border-radius: 0.2em;
+	margin: -4em 0 0 3.75em;
+	pointer-events: none;
+	position: absolute;
+	white-space: nowrap;
+	z-index: 30;
+}
+
+body > header nav dt:hover + dd,
+body > header nav dd:hover {
+	display: block;
+}
+
+body > header nav dt.active + dd {
+	display: none;
+}
+
+body > header nav dd::before {
+	border: 0.75em solid transparent;
+	border-right-color: rgba(34, 34, 34, 0.95);
+	content: '';
+	display: block;
+	height: 0;
+	position: absolute;
+	right: 100%;
+	top: 0.75em;
+	width: 0;
+}
+
+body > header nav dt.active + dd {
+	margin-top: -3em;
+}
+
+body > header nav dd ul {
+	list-style-type: none;
+	margin-left: -1.75em;
+	padding-left: 1.75em;
+	pointer-events: all;
+}
+
+body > header nav dd ul li {
+	display: inline-block;
+}
+
+body > header nav dd ul li a {
+	text-decoration: none;
+}
+
+body > header nav dd ul li a::after {
+	background-color: #eee;
+	content: '';
+	display: block;
+	height: 1px;
+	margin-top: -1em;
+	transition: width .35s ease;
+	width: 0;
+}
+
+body > header nav dd ul li a:hover::after {
+	width: 100%;
+}
+
+body > header nav dd ul li + li {
+	margin-left: 1em;
+}
+
+@media screen and (max-height: 639px) {
+	body > header nav dt.active {
+		margin: 0;
+		transform: none;
+		width: auto;
+	}
+
+	body > header nav dt:hover.active + dd {
+		display: block;
+	}
+
+	body > header nav dt.active a {
+		color: transparent;
+		width: 100%;
+	}
+
+	body > header nav dt.active a .fa {
+		transform: none;
+	}
+
+	body > header nav dt.active a:focus,
+	body > header nav dt.active a:hover {
+		color: inherit;
+		height: 100%;
+		margin-left: -0.5em;
+		margin-top: 0;
+		width: 3.5em;
+	}
+}

@@ -1,0 +1,25 @@
+{{ partial "header.html" . }}
+	<header>
+		<nav>
+			<dl>{{ $url := substr (replace .RelPermalink .Site.BaseURL "") 4 }}{{ $current := . }}{{ range .Site.Menus.main_en }}
+				<dt{{ if or ($current.HasMenuCurrent "main_en" .) ($current.IsMenuCurrent "main_en" .) }} class="active"{{ end }} data-tab="{{ .Identifier }}"><a{{ if ne .URL "" }} href="{{ .URL }}"{{ end }}>{{ .Pre }} {{ .Name }}</a></dt>
+				<dd>{{ .Post }}</dd>{{ end }}
+				<dt><a><span class="fa fa-language"></span> Language</a></dt>
+				<dd>
+					<ul>
+						<li><a href="fr/{{ $url }}">Français</a></li>
+						<li><a href="en/{{ $url }}">English</a></li>
+					</ul>
+				</dd>
+			</dl>
+		</nav>
+	</header>
+	<article>
+		<header>
+			<h1>{{ .Title }}</h1>
+			<h2>{{ .Description }}</h2>
+		</header>
+		<section>{{ .Content }}
+		</section>
+	</article>
+{{ partial "footer.html" . }}

@@ -1,0 +1,14 @@
+{
+  "name": "website",
+  "version": "2.0.0",
+  "authors": [
+    "Vincent Batoufflet <vincent@batoufflet.info>"
+  ],
+  "description": "Personal website",
+  "license": "MIT",
+  "homepage": "http://batoufflet.info/",
+  "dependencies": {
+    "font-awesome": "~4.3.0",
+    "roboto-fontface": "~0.4.2"
+  }
+}

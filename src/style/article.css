@@ -1,0 +1,213 @@
+
+article {
+	background-color: #f7f7f7;
+	bottom: 0;
+	box-shadow: -0.1em 0 0.2em rgba(0, 0, 0, 0.25);
+	box-sizing: border-box;
+	color: #000;
+	left: 25%;
+	line-height: 1.5em;
+	overflow: auto;
+	padding: 4em 20% 4em 4em;
+	position: absolute;
+	right: 0;
+	top: 0;
+	z-index: 20;
+}
+
+article > :last-child {
+	margin-bottom: 4em;
+}
+
+article a {
+	color: #444;
+	display: inline-block;
+	font-weight: 400;
+	text-decoration: none;
+}
+
+article a .fa {
+	display: inline-block;
+	line-height: inherit;
+	margin-right: 0.35em;
+}
+
+article a::after {
+	background-color: #444;
+	content: '';
+	display: block;
+	height: 1px;
+	margin-top: -0.25em;
+	transition: width .35s ease;
+	width: 0;
+}
+
+article a:hover::after {
+	width: 100%;
+}
+
+article h1,
+article h2,
+article h3,
+article h4,
+article h5,
+article h6,
+article p,
+article dl,
+article ol,
+article ul,
+article pre {
+	margin: 0 0 1em;
+}
+
+article h1 {
+	font-size: 2em;
+	font-weight: 300;
+}
+
+article header h1 {
+	margin-bottom: 0.25em;
+}
+
+article header h2 {
+	font-size: 1em;
+	font-weight: 300;
+	margin-bottom: 3em;
+}
+
+article section dl dt {
+	font-weight: 400;
+}
+
+article section dl dd {
+	color: #444;
+	margin-bottom: 1em;
+}
+
+article section dl + p {
+	margin-top: 3em;
+}
+
+article section ol,
+article section ul {
+	padding-left: 2em;
+}
+
+article section h3 {
+	font-size: 1.6em;
+	font-weight: 300;
+	margin-top: 2em;
+}
+
+article section h4 {
+	font-size: 1.4em;
+	font-weight: 300;
+	margin-top: 2em;
+}
+
+article section h5 {
+	font-size: 1.2em;
+	font-weight: 400;
+}
+
+article section h6 {
+	font-size: 1em;
+	font-weight: 400;
+}
+
+article section h5 + ul {
+	list-style-type: none;
+	margin: -1em 0 2em;
+	padding: 0;
+}
+
+article section h5 + ul li {
+	display: inline;
+}
+
+article section h5 + ul li .fa,
+article section dd .fa {
+	margin-left: 0.5em;
+}
+
+article section h5 + ul li:first-child .fa {
+	margin-left: 0;
+}
+
+article section [id^="projects:"] {
+	display: none;
+}
+
+article section h5 + ul + dl,
+article section [id^="skills:"] + dl {
+	column-gap: 2em;
+	columns: 2;
+}
+
+article section [id^="information:"] + dl dt {
+	display: none;
+}
+
+article section [id^="information:"] + dl dd {
+	margin-bottom: 0;
+}
+
+article section [id^="information:"] + dl dd .fa {
+	text-align: center;
+	width: 1.5em;
+}
+
+article section hr {
+	background: transparent linear-gradient(to left, #f7f7f7 25%, #c7c7c7 50%, #f7f7f7 75%) no-repeat;
+	border: none;
+	height: 1px;
+	margin: 2em 0;
+}
+
+article section code,
+article section pre {
+	background-color: #eaeaea;
+}
+
+article section code {
+	display: inline-block;
+	padding: 0 0.25em;
+}
+
+article section pre {
+	padding: 0.25em 0.5em;
+}
+
+article section pre code {
+	overflow: auto;
+	text-overflow: ellipsis;
+	width: 100%;
+}
+
+@media screen and (max-width: 640px) {
+	article {
+		padding: 2em;
+	}
+
+	article section dl {
+		columns: auto !important;
+	}
+
+	article section h5 + ul li {
+		display: block;
+		padding-left: 1.5em;
+		position: relative;
+	}
+
+	article section h5 + ul li .fa {
+		left: 0;
+		margin-left: 0;
+		position: absolute;
+		text-align: center;
+		width: 1.5em;
+	}
+
+	article > :last-child {
+		margin-bottom: 2em;
+	}
+}

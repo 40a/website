@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="{{ .Params.lang }}">
+<head>
+	<meta charset="utf-8">
+	<title>{{ .Title }} – Vincent Batoufflet</title>
+	<base href="{{ .Site.BaseURL }}/">{{ if .Description }}
+	<meta name="description" content="{{ .Description }}">{{ end }}{{ if .Params.tags }}
+	<meta name="keywords" content="{{ delimit .Params.tags ", " }}">{{ end }}
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+	<link rel="stylesheet" href="assets/css/font-awesome.min.css">
+	<link rel="stylesheet" href="assets/css/roboto-fontface.min.css">
+	<link rel="stylesheet" href="assets/css/style.min.css">
+</head>
+<body>

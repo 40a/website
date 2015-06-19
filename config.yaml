@@ -1,0 +1,12 @@
+# vim: ts=2 sw=2 et
+---
+baseurl: /
+languageCode: en-us
+title: Vincent Batoufflet
+disableRSS: true
+blackfriday:
+  extensions:
+    - definitionLists
+sitemap:
+   changefreq: monthly
+   priority: 0.5
