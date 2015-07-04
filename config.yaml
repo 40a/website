@@ -1,6 +1,6 @@
 # vim: ts=2 sw=2 et
 ---
-baseurl:
+baseurl: https://batoufflet.info/
 languageCode: en-us
 title: Vincent Batoufflet
 disableRSS: true
