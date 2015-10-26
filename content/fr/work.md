@@ -1,9 +1,10 @@
 ---
-date: 2015-06-19
+date: 2015-10-26
 title: Projets
 description: Projects et travaux
 lang: fr-FR
 tags:
+  - agrégation
   - debian
   - empaquetages
   - expression rationelle
@@ -21,7 +22,9 @@ tags:
   - regex
   - regexp
   - rétro-portages
+  - service
   - solution
+  - supervision
   - sysadmin
   - testeur
   - visualisation
@@ -39,6 +42,9 @@ menu:
 
 [Facette](https://facette.io/)
 :   Outil de visualisation de graphs.
+
+[Goverview](https://github.com/vbatoufflet/goverview)
+:   Service d'agrégation de supervision.
 
 [Plume](https://github.com/vbatoufflet/plume)
 :   Solution de wiki minimaliste.
