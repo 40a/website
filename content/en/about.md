@@ -26,7 +26,7 @@ menu:
     weight: 40
 ---
 
-My name is Vincent Batoufflet and I’m a _Systems and Networks Engineer_ interested in new technologies, free
+My name is Vincent Batoufflet and I’m a _Systems and Network Engineer_ interested in new technologies, free
 software and tons of Go, Python and web development related stuff.
 
 When not dealing with computers, I enjoy music (learning drums), cinema, watching a lot of TV shows and reading books.

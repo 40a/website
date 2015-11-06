@@ -164,7 +164,7 @@ Miscellaneous
 
 #### Experience {#experience}
 
-##### Systems and Networks Administrator
+##### Lead Systems and Network Engineer
 
  * <span class="fa fa-clock-o"></span> Since Aug. 2014
  * <span class="fa fa-building-o"></span> Diabolocom (Telecommunications)
@@ -172,13 +172,13 @@ Miscellaneous
 
 ---
 
-##### Lead Systems and Networks Administrator
+##### Lead Systems and Network Administrator
 
  * <span class="fa fa-clock-o"></span> Dec. 2011 – Jul. 2014
  * <span class="fa fa-building-o"></span> e-merchant – Pixmania Group (E-Commerce)
  * <span class="fa fa-map-marker"></span> Paris, France
 
-System Administration
+Systems Administration
 :   Day to day exploitation of the e-commerce platform and services.
 :   Think and build of new development platforms environments.
 :   Development of various tools in order to automate code release in production environment.
@@ -191,7 +191,7 @@ System Administration
 :   Build of various Debian packaging and backports.
 
 Management
-:   Lead of a small team of system administrators.
+:   Lead of a small team of systems administrators.
 :   Management of weekly progress and incidents reports.
 :   Management and prioritization of infrastructure improvement and migration plans.
 :   Technical referent for development teams.
@@ -204,13 +204,13 @@ Environment
 
 ---
 
-##### Systems and Networks Administrator
+##### Systems and Network Administrator
 
  * <span class="fa fa-clock-o"></span> Nov. 2010 – Dec. 2011
  * <span class="fa fa-building-o"></span> Newsweb – Lagardère Active (Media)
  * <span class="fa fa-map-marker"></span> Levallois-Perret, France
 
-System Administration
+Systems Administration
 :   Day to day exploitation of the hosting platform.
 :   Implementation of an Apache hosting environment with multiple PHP version support (Apache module / FastCGI).
 :   Development and implementation of a centralized logging system (using Python, PHP and MongoDB backend).
@@ -225,13 +225,13 @@ Environment
 
 ---
 
-##### Systems and Networks Administrator
+##### Systems and Network Administrator
 
  * <span class="fa fa-clock-o"></span> Jan. 2007 – Nov. 2010
  * <span class="fa fa-building-o"></span> BUF Compagnie (Animation / Visual Effects)
  * <span class="fa fa-map-marker"></span> Paris, France
 
-System Administration
+Systems Administration
 :   Day to day exploitation of 1 000+ hosts (GNU/Linux servers and desktops).
 :   Implementation of a load-balanced LDAP infrastructure (using LVS and Keepalived), centralizing system users and
     groups, messaging accounts, and NFS mount points.
@@ -254,13 +254,13 @@ Environment
 
 ---
 
-##### Systems and Networks Administrator
+##### Systems and Network Administrator
 
  * <span class="fa fa-clock-o"></span> Oct. 2005 - Sep. 2006
  * <span class="fa fa-building-o"></span> University of Versailles Saint-Quentin-en-Yvelines (Education)
  * <span class="fa fa-map-marker"></span> Versailles, France
 
-System Administration
+Systems Administration
 :   Day to day exploitation of “Institut des Sciences et Techniques des Yvelines” (Computer science engineer school)
     equipments.
 :   Development of a monitoring and logging solution for the university wireless infrastructure.
